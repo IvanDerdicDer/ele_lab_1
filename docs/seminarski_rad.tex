@@ -1,0 +1,52 @@
+\documentclass[seminarskirad, Croatian]{fer}
+
+
+\usepackage{blindtext}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{float}
+\newcommand{\comment}[1]{} % enables commenting out blocks of text
+
+
+%--- PODACI O RADU / THESIS INFORMATION ----------------------------------------
+
+% Naslov na engleskom jeziku / Title in English
+% \title{Uncomputable Computablity}
+
+% Naslov na hrvatskom jeziku / Title in Croatian
+\naslov{Seminarski rad EVH}
+
+% Autor / Author
+\author{Ivan Derdić}
+
+
+
+% Datum rada na engleskom jeziku / Date in English
+% \date{June, 2021}
+
+% Datum rada na hrvatskom jeziku / Date in Croatian
+\datum{prosinac, 2023.}
+
+%-------------------------------------------------------------------------------
+
+
+\begin{document}
+
+
+% Naslovnica se automatski generira / Titlepage is automatically generated
+\maketitle
+
+
+% Odovud započinje numeriranje stranica / Page numbering starts from here
+\mainmatter
+
+% Sadržaj se automatski generira / Table of contents is automatically generated
+\tableofcontents
+
+\input{chapters/a.tex}
+
+\backmatter
+
+
+\end{document}
